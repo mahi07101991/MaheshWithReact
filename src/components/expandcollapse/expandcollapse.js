@@ -14,7 +14,6 @@ export default class expandcollapse extends Component {
       }
 
       setCount = (value)=>{
-        debugger
         this.setState({
           count1: {
             name: 'count1',
@@ -23,11 +22,9 @@ export default class expandcollapse extends Component {
         })
       }
       setCountTo2 = ()=>{
-        debugger
         this.setState({count1:{name:'count1',count:10}})
       }
       setCountTo1 = ()=>{
-        debugger
         this.setState({count1:{name:'count1',count:0}})
       }
   render() {

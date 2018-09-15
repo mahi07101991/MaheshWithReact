@@ -8,7 +8,7 @@ export default class row extends Component {
         }
       }
       componentWillReceiveProps(nextProps){
-          debugger
+        
           if(nextProps.count.name==='count1' && nextProps.count.count >= 10){
               this.setState({
                   answer:true
