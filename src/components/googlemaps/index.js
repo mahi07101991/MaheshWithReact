@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import GoogleMapReact from 'google-map-react';
 
 export default class index extends Component {
   render() {
     return (
-      <h1>.:: Welcome Mahesh ::.</h1>
+      <div>
+        Google Maps
+      </div>
     )
   }
 }

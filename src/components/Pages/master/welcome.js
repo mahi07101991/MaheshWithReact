@@ -9,7 +9,7 @@ export default class welcome extends Component {
             <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
             responsive, mobile-first projects on the web.</p> 
           </div>
-          <button type="button" class="btn btn-warning">Go <span className="btn btn-success" onClick={()=>{this.props.history.push('/dashboard')}}>DASHBOARD</span></button>
+          <button type="button" class="btn btn-warning">Go <span className="btn btn-success" onClick={()=>{this.props.history.push('/dashboard/home')}}>DASHBOARD</span></button>
        </div>
     )
   }

@@ -1,0 +1,22 @@
+.container1{
+  max-width:1024px;
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    max-height:1024px;
+}
+h1 {
+    width:100%;
+    text-align: center;
+}
+.item {
+    padding:10px;
+    margin:10px;
+    background-color: gray;
+    width: 150px;
+    font-size:100px;
+    color:white;
+    text-align: center;
+}
