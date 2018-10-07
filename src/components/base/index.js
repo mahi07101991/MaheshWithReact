@@ -6,6 +6,7 @@ import ExpandCollapse from '../expandcollapse/expandcollapse';
 import GoogleMaps from '../googlemaps/index';
 import SubNav from '../SubNav/subnav';
 import ArrangeElements from '../arrangeElements/arrange-elements';
+import CheckBoxs from '../checkboxs/checkboxes';
 
 export default class index extends Component {
   constructor(props){
@@ -21,6 +22,7 @@ export default class index extends Component {
         <Route path="/dashboard/googleMaps" component={GoogleMaps} {...this.props}/>
         <Route path="/dashboard/subnav" component={SubNav} {...this.props}/>
         <Route path="/dashboard/arrange-elements" component={ArrangeElements} {...this.props}/>
+        <Route path="/dashboard/checkboxes" component={CheckBoxs} {...this.props}/>
       </div>
     </div>
     )

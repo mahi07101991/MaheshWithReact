@@ -20,6 +20,7 @@ export default class index extends Component {
             <li className={ this.getActive('/dashboard/googleMaps')}><a onClick={()=>{this.props.history.push('/dashboard/googleMaps')}}>Google Maps</a></li>
             <li className={ this.getActive('/dashboard/subnav')}><a onClick={()=>{this.props.history.push('/dashboard/subnav')}}>SubNav</a></li>
             <li className={ this.getActive('/dashboard/arrange-elements')}><a onClick={()=>{this.props.history.push('/dashboard/arrange-elements')}}>Arrange Elements</a></li>
+            <li className={ this.getActive('/dashboard/checkboxes')}><a onClick={()=>{this.props.history.push('/dashboard/checkboxes')}}>Check Boxs</a></li>
           </ul>
           
         </div>

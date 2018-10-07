@@ -24,7 +24,7 @@ export default class arrangeElements extends Component {
     
     updateDimensions=()=>{
         console.log(this.state.order3)
-        if(window.innerWidth < 980)
+        if(window.innerWidth < 1600)
         {
             this.setState({
                 order1: 1,
@@ -40,14 +40,14 @@ export default class arrangeElements extends Component {
         }  else{
             this.setState({
                 order1: 1,
-                order2: 4,
-                order3: 7,
-                order4: 2,
+                order2: 2,
+                order3: 3,
+                order4: 4,
                 order5: 5,
-                order6: 8,
-                order7: 3,
-                order8: 6,
-                order9: 9
+                order6: 6,
+                order7: 7,
+                order8: 8,
+                order9: 9 
             })
         }  
     }
@@ -61,7 +61,7 @@ export default class arrangeElements extends Component {
         <br />
         <br />
       <div>
-      <div className="container1" style={{height:'1900px'}}>
+      <div className="container1">
             <Div height={'190px'} order={this.state.order1}  number={1}/>
             <Div height={'180px'} order={this.state.order2} number={2}/>
             <Div height={'190px'} order={this.state.order3} number={3}/>
